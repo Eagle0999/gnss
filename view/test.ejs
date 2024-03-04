@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Page Title</title>
+        <!--script type='text/javascript' src="/js/canvas.min.js"></script>
+        <script type='text/javascript'src="/js/Chart.min.js"></script>
+        <script type='text/javascript'src="/js/chart.js"></script-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>   
+        <script type='text/javascript'src="/js/multiselect-dropdown.js"></script>
+        
+        <link href="/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <style>
+            select {width: 20em;}
+        </style>
+    </head>
+    <body>
+    
+
+    <div class="container">
+        <h1>Данные RINEX</h1>
+        <div id="content" style = 'display: none;'> <%= JSON.stringify(data) %> </div>
+        <p id="par" style = 'display: none;'></p>
+        <div class="row">
+            <div class="col ">
+                <form method="post" action="/graph" >
+                    <label>Космические аппараты</label>
+                    <select name="satelite" id="satelite"  multiselect-search="true" multiple onchange="console.log(Array.from(this.selectedOptions).map(x=>x.innerHTML))" multiselect-hide-x="false">
+                    </select>
+                    <hr/>
+                    <label>Типы сигналов</label>
+                    <select name="signals" id="signals"  multiselect-search="true" multiple onchange="console.log(Array.from(this.selectedOptions).map(x=>x.innerHTML))" multiselect-hide-x="false">
+                    </select>
+                    <hr/>
+                    <label>Время</label>
+                    <select name="times" id="times"  multiselect-search="true" multiple onchange="console.log(Array.from(this.selectedOptions).map(x=>x.innerHTML))" multiselect-hide-x="false">
+                    </select>
+                    <button type="submit" class="btn btn-light" onclick="buildGraph()">Построить график</button>
+                </form>
+            </div>
+        </div>
+        <!--canvas id="chartContainer" style="height: 300px; width: 80%;"   > </canvas-->
+    </div>
+      
+
+
+
+
+        <script type='text/javascript' src="/js/bootstrap.bundle.min.js"></script>
+        <script type='text/javascript' src="/js/graph2.js"></script>
+    </body>
+</html>

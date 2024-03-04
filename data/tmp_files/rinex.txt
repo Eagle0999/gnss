@@ -1,0 +1,137 @@
+[{'coords': {'sv': {'dims': (), 'attrs': {}, 'data': 'G10'}, 'time': {'dims': ('time',), 'attrs': {}, 
+'data': ['2020/09/18 08:07:44', '2020/09/18 08:07:45', '2020/09/18 08:07:46', '2020/09/18 08:07:47']}},
+ 'attrs': {'version': 3.04, 'interval': 1.0, 'rinextype': 'obs', 'fast_processing': 0, 'time_system': 'GPS',
+ 'filename': '01-Sigma-G3T-copy.obs', 'position': [2830779.8751, 2196621.9863, 5259103.1435],
+ 'position_geodetic': (55.91185119915224, 37.81066448407942, 187.64917091020936)},
+ 'dims': {'time': 4}, 'data_vars': {'S1C': {'dims': ('time',), 'attrs': {},
+ 'data': [53.0, 53.0, 53.0, 53.0]}, 'L1W': {'dims': ('time',), 'attrs': {}, 'data': [107305833.327,
+ 107305484.956, 107305137.025, 107304789.763]}}}, {'coords': {'sv': {'dims': (), 'attrs': {}, 'data': 'G18'},
+ 'time': {'dims': ('time',), 'attrs': {}, 'data': [datetime.datetime(2020, 9, 18, 8, 7, 44), datetime.datetime(2020, 9, 18, 8, 7, 45),
+ datetime.datetime(2020, 9, 18, 8, 7, 46), datetime.datetime(2020, 9, 18, 8, 7, 47)]}},
+ 'attrs': {'version': 3.04, 'interval': 1.0, 'rinextype': 'obs', 'fast_processing': 0, 'time_system': 'GPS',
+ 'filename': '01-Sigma-G3T-copy.obs', 'position': [2830779.8751, 2196621.9863, 5259103.1435],
+ 'position_geodetic': (55.91185119915224, 37.81066448407942, 187.64917091020936)}, 'dims': {'time': 4},
+ 'data_vars': {'S1C': {'dims': ('time',), 'attrs': {}, 'data': [40.75, 41.25, 41.25, 41.5]}, 'L1W': {'dims': ('time',), 'attrs': {},
+ 'data': [122962082.437, 122965430.477, 122968778.562, 122972126.922]}}}]
+ 
+ for item in obses[index].data_vars:
+	for
+ for item in  obses[index].data_vars:
+   
+    print(data_vars[item]['data'])
+	
+	
+	
+	{'coords': {'sv': {'dims': (), 'attrs': {}, 'data': 'R23'}, 'time': {'dims': ('time',), 'attrs': {}, 'data': [datet
+ime.datetime(2020, 9, 18, 8, 7, 42), datetime.datetime(2020, 9, 18, 8, 7, 43), datetime.datetime(2020, 9, 18, 8, 7,
+ 44), datetime.datetime(2020, 9, 18, 8, 7, 45), datetime.datetime(2020, 9, 18, 8, 7, 46), datetime.datetime(2020, 9
+, 18, 8, 7, 47)]}}, 'attrs': {'version': 3.04, 'interval': 1.0, 'rinextype': 'obs', 'fast_processing': 0, 'time_sys
+tem': 'GPS', 'filename': '01-Sigma-G3T-copy.obs', 'position': [2830779.8751, 2196621.9863, 5259103.1435], 'position
+_geodetic': (55.91185119915224, 37.81066448407942, 187.64917091020936)}, 'dims': {'time': 6}, 'data_vars': {'L1C':
+{'dims': ('time',), 'attrs': {}, 'data': [119610600.204, 119614538.499, 119618476.79, 119622415.461, 119626354.288,
+ 119630293.491]}, 'L1W': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan, nan, nan, nan, nan]}}}
+ 
+ 
+ 
+ 
+ {'coords': {'sv': {'dims': (), 'attrs': {}, 'data': 'R23'}, 'time': {'dims': ('time',), 'attrs': {}, 'data': [datet
+ime.datetime(2020, 9, 18, 8, 7, 42), datetime.datetime(2020, 9, 18, 8, 7, 43), datetime.datetime(2020, 9, 18, 8, 7,
+ 44), datetime.datetime(2020, 9, 18, 8, 7, 45), datetime.datetime(2020, 9, 18, 8, 7, 46), datetime.datetime(2020, 9
+, 18, 8, 7, 47)]}}, 'attrs': {'version': 3.04, 'interval': 1.0, 'rinextype': 'obs', 'fast_processing': 0, 'time_sys
+tem': 'GPS', 'filename': '01-Sigma-G3T-copy.obs', 'position': [2830779.8751, 2196621.9863, 5259103.1435], 'position
+_geodetic': (55.91185119915224, 37.81066448407942, 187.64917091020936)}, 'dims': {'time': 6}, 'data_vars': {'C1C':
+{'dims': ('time',), 'attrs': {}, 'data': [22359938.93, 22360675.035, 22361411.043, 22362148.623, 22362884.337, 2236
+3620.948]}, 'L1C': {'dims': ('time',), 'attrs': {}, 'data': [119610600.204, 119614538.499, 119618476.79, 119622415.
+461, 119626354.288, 119630293.491]}, 'D1C': {'dims': ('time',), 'attrs': {}, 'data': [-3938.167, -3938.102, -3938.1
+73, -3939.125, -3938.705, -3939.38]}, 'S1C': {'dims': ('time',), 'attrs': {}, 'data': [45.75, 46.0, 46.25, 46.25, 4
+6.75, 46.75]}, 'C1W': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan, nan, nan, nan, nan]}, 'L1W': {'dims': ('t
+ime',), 'attrs': {}, 'data': [nan, nan, nan, nan, nan, nan]}, 'D1W': {'dims': ('time',), 'attrs': {}, 'data': [nan,
+ nan, nan, nan, nan, nan]}, 'S1W': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan, nan, nan, nan, nan]}, 'C2W':
+ {'dims': ('time',), 'attrs': {}, 'data': [nan, nan, nan, nan, nan, nan]}, 'L2W': {'dims': ('time',), 'attrs': {},
+'data': [nan, nan, nan, nan, nan, nan]}, 'D2W': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan, nan, nan, nan,
+nan]}, 'S2W': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan, nan, nan, nan, nan]}, 'C2X': {'dims': ('time',),
+'attrs': {}, 'data': [nan, nan, nan, nan, nan, nan]}, 'L2X': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan, na
+n, nan, nan, nan]}, 'D2X': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan, nan, nan, nan, nan]}, 'S2X': {'dims'
+
+
+
+
+{'coords': {'sv': {'dims': (), 'attrs': {}, 'data': 'R24'}, 'time': {'dims': ('time',), 'attrs': {}, 'data': [datet
+ime.datetime(2020, 9, 18, 8, 7, 42), datetime.datetime(2020, 9, 18, 8, 7, 43), datetime.datetime(2020, 9, 18, 8, 7,
+ 44), datetime.datetime(2020, 9, 18, 8, 7, 45), datetime.datetime(2020, 9, 18, 8, 7, 46), datetime.datetime(2020, 9
+, 18, 8, 7, 47)]}}, 'attrs': {'version': 3.04, 'interval': 1.0, 'rinextype': 'obs', 'fast_processing': 0, 'time_sys
+tem': 'GPS', 'filename': '01-Sigma-G3T-copy.obs', 'position': [2830779.8751, 2196621.9863, 5259103.1435], 'position
+_geodetic': (55.91185119915224, 37.81066448407942, 187.64917091020936)}, 'dims': {'time': 6}, 'data_vars': {'C1C':
+{'dims': ('time',), 'attrs': {}, 'data': [19665815.195, 19666203.589, 19666592.26, 19666980.657, 19667369.376, 1966
+7758.852]}, 'L1C': {'dims': ('time',), 'attrs': {}, 'data': [105161948.39, 105164025.167, 105166102.296, 105168180.
+16, 105170258.575, 105172337.708]}, 'D1C': {'dims': ('time',), 'attrs': {}, 'data': [-2076.592, -2076.753, -2077.13
+6, -2078.462, -2078.477, -2079.432]}, 'S1C': {'dims': ('time',), 'attrs': {}, 'data': [52.25, 52.5, 52.25, 52.5, 52
+.5, 52.75]}, 'C1W': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan, nan, nan, nan, nan]}, 'L1W': {'dims': ('tim
+e',), 'attrs': {}, 'data': [nan, nan, nan, nan, nan, nan]}, 'D1W': {'dims': ('time',), 'attrs': {}, 'data': [nan, n
+an, nan, nan, nan, nan]}, 'S1W': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan, nan, nan, nan, nan]}, 'C2W': {
+'dims': ('time',), 'attrs': {}, 'data': [nan, nan, nan, nan, nan, nan]}, 'L2W': {'dims': ('time',), 'attrs': {}, 'd
+ata': [nan, nan, nan, nan, nan, nan]}, 'D2W': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan, nan, nan, nan, na
+n]}, 'S2W': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan, nan, nan, nan, nan]}, 'C2X': {'dims': ('time',), 'a
+ttrs': {}, 'data': [nan, nan, nan, nan, nan, nan]}, 'L2X': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan, nan,
+ nan, nan, nan]}, 'D2X': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan, nan, nan, nan, nan]}, 'S2X': {'dims':
+('time',), 'attrs': {}, 'data': [nan, nan, nan, nan, nan, nan]}, 'C1P': {'dims': ('time',), 'attrs': {}, 'data': [1
+9665815.54, 19666204.074, 19666592.452, 19666981.133, 19667369.796, 19667758.753]}, 'L1P': {'dims': ('time',), 'att
+rs': {}, 'data': [105161943.647, 105164020.423, 105166097.551, 105168175.414, 105170253.829, 105172332.959]}, 'D1P'
+: {'dims': ('time',), 'attrs': {}, 'data': [-2076.592, -2076.753, -2077.136, -2078.462, -2078.477, -2079.432]}, 'S1
+P': {'dims': ('time',), 'attrs': {}, 'data': [51.75, 51.75, 51.75, 51.75, 51.75, 51.75]}, 'C2C': {'dims': ('time',)
+, 'attrs': {}, 'data': [19665821.353, 19666209.953, 19666598.082, 19666987.111, 19667375.297, 19667763.816]}, 'L2C'
+: {'dims': ('time',), 'attrs': {}, 'data': [81792628.677, 81794243.947, 81795859.491, 81797475.596, 81799092.146, 8
+1800709.245]}, 'D2C': {'dims': ('time',), 'attrs': {}, 'data': [-1615.114, -1615.239, -1615.557, -1616.56, -1616.61
+9, -1617.302]}, 'S2C': {'dims': ('time',), 'attrs': {}, 'data': [47.75, 47.75, 47.75, 47.75, 47.75, 47.5]}, 'C2P':
+{'dims': ('time',), 'attrs': {}, 'data': [19665821.53, 19666209.98, 19666598.544, 19666987.09, 19667375.711, 196677
+64.476]}, 'L2P': {'dims': ('time',), 'attrs': {}, 'data': [81792630.922, 81794246.19, 81795861.733, 81797477.85, 81
+799094.395, 81800711.495]}, 'D2P': {'dims': ('time',), 'attrs': {}, 'data': [-1615.13, -1615.233, -1615.55, -1616.5
+81, -1616.633, -1617.309]}, 'S2P': {'dims': ('time',), 'attrs': {}, 'data': [46.5, 46.5, 46.5, 46.5, 46.5, 46.25]}}
+}
+
+
+
+
+
+
+
+
+# глонасс
+
+ 'X': {'dims': ('time',), 'attrs': {}, 'data':
+ [432128.417969, 4588559.08203, 7665552.2460900005]}
+
+
+ gps
+  dict_values([{'sv': {'dims': (), 'attrs': {}, 'data': 'G08'}, 'time': {'dims': ('time',), 'attrs': {}, 'data': [dat
+etime.datetime(2020, 9, 18, 9, 30), datetime.datetime(2020, 9, 18, 10, 0)]}}, {'version': 3.04, 'svtype': ['G', 'R'
+, 'G', 'R', 'G', 'R', 'G', 'R', 'G', 'R', 'G', 'R', 'G', 'R', 'G', 'R', 'G', 'R', 'G', 'R', 'G', 'R', 'G', 'R', 'G'
+, 'R'], 'rinextype': 'nav', 'filename': '01-Sigma-G3T.nav'}, {'time': 2}, {'SVclockBias': {'dims': ('time',), 'attr
+s': {}, 'data': [-4.8396323109e-05, -4.83985058963e-05]}, 'SVclockDrift': {'dims': ('time',), 'attrs': {}, 'data':
+[-1.36068933898e-12, -1.36424205266e-12]}, 'SVclockDriftRate': {'dims': ('time',), 'attrs': {}, 'data': [0.0, 0.0]}
+, 'IODE': {'dims': ('time',), 'attrs': {}, 'data': [18.0, 26.0]}, 'Crs': {'dims': ('time',), 'attrs': {}, 'data': [
+-62.95703125, -54.25]}, 'DeltaN': {'dims': ('time',), 'attrs': {}, 'data': [4.0967777901e-09, 4.16160191885e-09]},
+'M0': {'dims': ('time',), 'attrs': {}, 'data': [2.53353999154, 2.79642914773]}, 'Cuc': {'dims': ('time',), 'attrs':
+ {}, 'data': [-3.04728746414e-06, -2.6673078537e-06]}, 'Eccentricity': {'dims': ('time',), 'attrs': {}, 'data': [0.
+00547875557095, 0.0054785865359]}, 'Cus': {'dims': ('time',), 'attrs': {}, 'data': [1.43842771649e-05, 1.4146789908
+4e-05]}, 'sqrtA': {'dims': ('time',), 'attrs': {}, 'data': [5153.73139682, 5153.72965431]}, 'Toe': {'dims': ('time'
+,), 'attrs': {}, 'data': [466200.0, 468000.0]}, 'Cic': {'dims': ('time',), 'attrs': {}, 'data': [-1.4528632164e-07,
+ -1.26659870148e-07]}, 'Omega0': {'dims': ('time',), 'attrs': {}, 'data': [-0.00211455957704, -0.00212836732933]},
+'Cis': {'dims': ('time',), 'attrs': {}, 'data': [-2.79396772385e-08, 3.35276126862e-08]}, 'Io': {'dims': ('time',),
+ 'attrs': {}, 'data': [0.969444102381, 0.96944344992]}, 'Crc': {'dims': ('time',), 'attrs': {}, 'data': [106.207031
+25, 110.1875]}, 'omega': {'dims': ('time',), 'attrs': {}, 'data': [-0.0628305913635, -0.0631807751843]}, 'OmegaDot'
+: {'dims': ('time',), 'attrs': {}, 'data': [-7.72990833774e-09, -7.7685378765e-09]}, 'IDOT': {'dims': ('time',), 'a
+ttrs': {}, 'data': [-2.68761194983e-10, -2.9108355337e-10]}, 'CodesL2': {'dims': ('time',), 'attrs': {}, 'data': [1
+.0, 1.0]}, 'GPSWeek': {'dims': ('time',), 'attrs': {}, 'data': [2123.0, 2123.0]}, 'L2Pflag': {'dims': ('time',), 'a
+ttrs': {}, 'data': [0.0, 0.0]}, 'SVacc': {'dims': ('time',), 'attrs': {}, 'data': [512.0, 2.0]}, 'health': {'dims':
+ ('time',), 'attrs': {}, 'data': [1.0, 0.0]}, 'TGD': {'dims': ('time',), 'attrs': {}, 'data': [5.12227416039e-09, 5
+.12227416039e-09]}, 'IODC': {'dims': ('time',), 'attrs': {}, 'data': [18.0, 26.0]}, 'TransTime': {'dims': ('time',)
+, 'attrs': {}, 'data': [460812.0, 460830.0]}, 'SVrelFreqBias': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan]}
+, 'MessageFrameTime': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan]}, 'X': {'dims': ('time',), 'attrs': {}, '
+data': [nan, nan]}, 'dX': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan]}, 'dX2': {'dims': ('time',), 'attrs':
+ {}, 'data': [nan, nan]}, 'Y': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan]}, 'dY': {'dims': ('time',), 'att
+rs': {}, 'data': [nan, nan]}, 'dY2': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan]}, 'FreqNum': {'dims': ('ti
+me',), 'attrs': {}, 'data': [nan, nan]}, 'Z': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan]}, 'dZ': {'dims':
+('time',), 'attrs': {}, 'data': [nan, nan]}, 'dZ2': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan]}, 'AgeOpInf
+o': {'dims': ('time',), 'attrs': {}, 'data': [nan, nan]}}])
+ 
